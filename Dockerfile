@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/rhel7/rhel
 
-RUN /usr/bin/yum -y update && yum install nginx
+RUN yum install -y nginx
 
 EXPOSE 8080
 
