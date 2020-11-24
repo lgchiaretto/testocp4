@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ubi-minimal:8.3-201-source
+FROM FROM registry.access.redhat.com/ubi8/ubi-minimal:8.1
 
 RUN yum update
 
