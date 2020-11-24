@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ubi8.1-397
+FROM registry.access.redhat.com/ubi8/ubi8
 
 RUN yum update
 
