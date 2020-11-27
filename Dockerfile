@@ -12,6 +12,6 @@ FROM registry.access.redhat.com/rhel7/rhel
 # CMD ["nginx", "-g", "daemon off;"]
 
 
-RUN sleep 3600
+RUN sleep 15 && exit 1
 
 
